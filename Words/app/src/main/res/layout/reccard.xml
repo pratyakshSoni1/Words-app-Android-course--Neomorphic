@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/resView"
+    android:layout_height="wrap_content" android:layout_width="wrap_content"
+    android:background="@android:color/transparent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/btn_focused"
+        tools:text="A"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:shadowColor="#0f0f0f"
+        android:shadowRadius="5"
+        android:shadowDx="1.9"
+        android:shadowDy="1.9"
+        android:id="@+id/resbtn"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</FrameLayout>

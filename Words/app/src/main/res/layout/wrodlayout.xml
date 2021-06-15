@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wordCard"
+    android:layout_width="150dp"
+    android:layout_height="43dp"
+    android:paddingTop="7dp"
+    android:paddingLeft="18dp"
+    android:textSize="15sp"
+    tools:text="aargh"
+    android:shadowColor="#0f0f0f"
+    android:shadowRadius="5"
+    android:shadowDx="1.9"
+    android:shadowDy="1.9"
+    android:textColor="#ffffff"
+    android:background="@drawable/wordbtnfocused"
+    app:backgroundTint="@null">
+
+</Button>
